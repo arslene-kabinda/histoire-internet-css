@@ -1,38 +1,48 @@
 @font-face
 {
     font-family: "Baskertville";
-    src: url("Libre_Baskerville/LibreBaskerville-Bold.ttf")
+    src: url("baskerville/Online_Web_Fonts.url")
 
 }
 
 body
 {
-    background-color: rgb(202, 198, 198);
-    margin: 135px;
-    margin-top: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
+    background-color: #c8c8c8;
+    margin: auto;
+    width: 80vw;
+   /* margin: 135px;
+    margin-top: 20px; */
+    font-family: Arial, Helvetica, sans-serif ;
 }
+/*main {
+    width: 60%;
+    margin: 50px;
+} */
 
-p{
+/*p{
     text-align:initial;
-}
+} */
 h1
 {
     font-weight: bolder;
     text-align: center;
-    font-size: 70px;
+    font-size: 4.5em;
     font-family: "Baskertville", serif;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
 
 }
     
 a {
-    color:red;
+    color:#cf0025 ;
     font-weight: bold;
 }
 
 h2
 {
-    color: red;
+    color:#cf0025;
 }
 
 th{
@@ -43,24 +53,24 @@ td{
     padding:8px;
 }
 #lgentete{
-    background: rgb(41, 39, 39);
+    background: #333333;
     color:white
 }
 tr:hover
 {
-    background: slategrey;
+    background: #999999;
     cursor: pointer;
 }
 .background
 {
-    background: rgb(226, 232, 236);
+    background: #dddd;
 }
 figure
 {
-    border: 2px solid red;
-    width: 63em;
+    border: 2px solid #cf0025;
+    width: 100%;
     border-radius:1em ;
-    background: rgb(46, 44, 44);
+    background: #333333;
     text-align: center;
     color: rgb(245, 244, 244);
     margin-left:0px;
@@ -68,17 +78,17 @@ figure
 figcaption
 {
     font-style: italic;
-    font-size: 17px;
+    font-size: 1.15em;
     font-weight: bold;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     text-align: center;
+    margin: 0 60px;
+   
     
 }
 img
 {
-margin-left: 10px;
-margin-right: 10px;
-margin-top: 20px;
+margin : 40px; 
 margin-bottom: 50px;
 width: 60em;
 text-align: center;
@@ -91,10 +101,17 @@ table
 #protocole
 {
     line-height: 30px;
-    color: rgb(62, 34, 219);
-    border:dashed 3px  rgb(84, 65, 189);
-    padding: 20px 20px;
-    background: rgb(210, 212, 218);
-    margin: 10px 30px;
+    color: #4e41ae;
+    border:dashed 3px  #4e41ae;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background:#b7b7b7;
+    margin: 0px 50px 0px 50px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.td{
     font-weight: bold;
 }
