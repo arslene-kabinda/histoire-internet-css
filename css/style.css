@@ -83,6 +83,7 @@ figcaption
     padding-bottom: 30px;
     text-align: center;
     margin: 0 60px;
+    width: ;
    
     
 }
@@ -96,6 +97,7 @@ text-align: center;
 table
 {
     border-collapse: collapse;
+    width: 100%;
 
 }
 #protocole
