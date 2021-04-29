@@ -1,8 +1,10 @@
-@font-face
-{
-    font-family: "Baskertville";
-    src: url("baskerville/Online_Web_Fonts.url")
-
+@font-face {
+    font-family: "Baskerville";
+    src: url("OnlineWebFonts_COM_bb4a1f636326755327542a1c76c930f0/@font-face/5770baa7788e08e9b8cf0195faa46e00.ttf");
+}
+@font-face {
+    font-family: "LS-Bold";
+    src: url("LS-Bold/ffonts.net.txt");
 }
 
 body
@@ -10,23 +12,14 @@ body
     background-color: #c8c8c8;
     margin: auto;
     width: 80vw;
-   /* margin: 135px;
-    margin-top: 20px; */
     font-family: Arial, Helvetica, sans-serif ;
 }
-/*main {
-    width: 60%;
-    margin: 50px;
-} */
 
-/*p{
-    text-align:initial;
-} */
 h1
 {
     font-weight: bolder;
     text-align: center;
-    font-size: 4.5em;
+    font-size: 75px;
     font-family: "Baskertville", serif;
     color: black;
     margin-top: 50px;
@@ -43,6 +36,10 @@ a {
 h2
 {
     color:#cf0025;
+    font-family: "Baskertville", serif;
+    font-size: 40px;
+    font-weight: bold;
+
 }
 
 th{
@@ -83,7 +80,7 @@ figcaption
     padding-bottom: 30px;
     text-align: center;
     margin: 0 60px;
-    width: ;
+  
    
     
 }
@@ -107,13 +104,19 @@ table
     border:dashed 3px  #4e41ae;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background:#b7b7b7;
-    margin: 0px 50px 0px 50px;
     font-weight: bold;
     font-size: 1.1em;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 16px;
 }
 .td{
     font-weight: bold;
+}
+p{
+    font-size: 16px;
+    
 }
